@@ -12,7 +12,8 @@ various log levels.
 To import the logger library, invoke `git-import!` as follows:
 
 ```scheme
-!(git-import! "https://github.com/ngeiswei/petta_lib_logger" "swipl pack install log4p")
+!(git-import! "https://github.com/ngeiswei/petta_lib_logger")
+!(import! &self (library lib_logger))
 ```
 
 ### Methods
